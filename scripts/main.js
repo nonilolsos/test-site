@@ -3,10 +3,10 @@ var myImage = document.querySelector('img');
 
 myImage.onclick = function() {
     var mySrc = myImage.getAttribute('src');
-    if(mySrc === 'images/stoneage-dog.jpeg') {
-      myImage.setAttribute ('src','images/dog-and-bone.gif');
+    if(mySrc === 'images/stoneage-dog.jpg') {
+      myImage.setAttribute ('src','images/determined-to-sleep.jpg');
     } else {
-      myImage.setAttribute ('src','images/stoneage-dog.jpeg');
+      myImage.setAttribute ('src','images/stoneage-dog.jpg');
     }
 }
 
